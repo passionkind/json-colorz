@@ -56,4 +56,4 @@ function colorize (json) {
   return engine.gen(json, options.level.start)
 }
 
-module.exports = colorize(json)
+module.exports = colorize;
